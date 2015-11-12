@@ -1,5 +1,5 @@
 wifi.setmode(wifi.STATION)
-wifi.sta.config("Istana_Bahru","DaveAndSalamiah")
+wifi.sta.config("my-wifi","my-password")
 print(wifi.sta.getip())
 gpio2 = 4
 gpio.mode(gpio2, gpio.OUTPUT)
